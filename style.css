@@ -3,7 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
- 
+
 
 ul {
     list-style: none;
@@ -300,6 +300,17 @@ button:active {
     font-weight: bold;
 }
 
+.sponsors-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors-container > a > img {
+    width: 300px;
+    height: 100%;
+}
+
+
 footer {
     height: 300px;
     display: flex;
@@ -334,8 +345,23 @@ footer p:nth-child(2) {
     margin: 20px 10px;
     border-radius: 50%;
 }
+
 .social-media {
     display: flex;
+}
+
+
+.fa-twitter {
+    color: #55ACEE;
+  }
+.fa-github {
+    color: #0b0b0b;
+}
+.fa-instagram {
+    color: rgb(255, 0, 234);
+}
+.fa-linkedin {
+    color: rgb(42, 85, 102);
 }
 
 .copyright {
